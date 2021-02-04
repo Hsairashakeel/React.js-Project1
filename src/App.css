@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bootstrap-select.btn-group.awe-select{
+  width:auto
+}
+.bootstrap-select.btn-group.awe-select .dropdown-toggle{
+  background-color:transparent;
+  outline:none;
+  border:2px solid #fff;
+  height:40px;
+  line-height:36px;
+  padding-top:0;
+  padding-bottom:0;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-radius:0
+}
+.bootstrap-select.btn-group.awe-select .dropdown-toggle:focus{
+  outline:none !important;
+  -webkit-box-shadow:none;
+  -moz-box-shadow:none;
+  box-shadow:none
+}
+.bootstrap-select.btn-group.awe-select .dropdown-toggle .caret{
+  color:#fff
+}
+.bootstrap-select.btn-group.awe-select .dropdown-toggle .filter-option{
+  color:#fff;
+  font-family:'Montserrat';
+  font-size:12px
+}
+.bootstrap-select.btn-group.awe-select .dropdown-menu{
+  margin:0;
+  border-width:0;
+  padding:0;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-radius:0
+}
+.bootstrap-select.btn-group.awe-select .dropdown-menu ul li a{
+  padding:10px 20px;
+  font-family:'Montserrat';
+  color:#333;
+  font-size:12px;
+  border-bottom:1px solid #f1f1f1;
+  -webkit-transition:all .3s ease;
+  -moz-transition:all .3s ease;
+  -ms-transition:all .3s ease;
+  -o-transition:all .3s ease
+}
+.bootstrap-select.btn-group.awe-select .dropdown-menu ul li a:hover{
+  background-color:#e1bd85;
+  color:#fff;
+  border-bottom-color:#e1bd85
+}
+.bootstrap-select.btn-group.awe-select .dropdown-menu ul li:last-child a{
+  border-bottom-width:0
+}
+.bootstrap-select.btn-group.awe-select .dropdown-menu ul li.selected a{
+  background-color:#e1bd85;
+  color:#fff;
+  border-bottom-color:#e1bd85
+}
